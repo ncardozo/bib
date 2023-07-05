@@ -1,15 +1,18 @@
-
 	
 @comment{----2023 ---}
 
-@misc{cardozo2023prevalence,
-      title={Prevalence of Code Smells in Reinforcement Learning Projects}, 
-      author={Nicolás Cardozo and Ivana Dusparic and Christian Cabrera},
-      year={2023},
-      eprint={2303.10236},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE}
-}
+@inproceedings{cardozo23prevelance,
+	author = {Nicol\'as Cardozo and Ivana Dusparic and Christian Cabrera},
+	booktitle = {Conference on AI Engineering -- Software Engineering for AI},
+	month = {May},
+	pages = {1--6},
+	publisher = {IEEE},
+	series = {CAIN'23},
+	title = {Prevalence of Code Smells in Reinforcement Learning Projects},
+	year = {2023},
+    eprint={2303.10236},
+    archivePrefix={arXiv},
+    primaryClass={cs.SE}}
 
 @comment{----2022 ---}
 
@@ -63,14 +66,7 @@
 
 
 @article{minecraft2020,
-  author    = {Stephanie Milani and
-               Nicholay Topin and
-               Brandon Houghton and
-               William H. Guss and
-               Sharada P. Mohanty and
-               Keisuke Nakata and
-               Oriol Vinyals and
-               Noboru Sean Kuno},
+  author = {Stephanie Milani and Nicholay Topin and Brandon Houghton and William H. Guss and Sharada P. Mohanty and Keisuke Nakata and Oriol Vinyals and Noboru Sean Kuno},
   title     = {Retrospective Analysis of the 2019 MineRL Competition on Sample Efficient
                Reinforcement Learning},
   journal   = {CoRR},
@@ -84,7 +80,7 @@
   bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@InProceedings{sharma2020,
+@inproceedings{sharma2020,
   author={Sharma, Prerna and Chaudhary, Vikas and Malhotra, Nakul and Gupta, Nikita and Mittal, Mohit},
   editor={Khanna, Ashish and Gupta, Deepak and Bhattacharyya, Siddhartha and Snasel, Vaclav and Platos, Jan and Hassanien, Aboul Ella},
   title={Dynamic Web with Automatic Code Generation Using Deep Learning},
@@ -123,34 +119,28 @@
 	pages = {215–220},
 	numpages = {6}}
 	
-	@INPROCEEDINGS{Restuccia2020,
+@inproceedings{restuccia20,
   author={Restuccia, Francesco and Melodia, Tommaso},
-  booktitle={IEEE INFOCOM 2020 - IEEE Conference on Computer Communications}, 
-  title={DeepWiERL: Bringing Deep Reinforcement Learning to the Internet of Self-Adaptive Things}, 
+  booktitle={Conference on Computer Communications}, 
+  title={DeepWiERL: Bringing Deep Reinforcement Learning to the Internet of Self-Adaptive Things},
+  series={INFOCOM'20},
+  publisher={IEEE},
   year={2020},
   volume={},
   number={},
   pages={844-853},
   doi={10.1109/INFOCOM41043.2020.9155461}}
   
-  @InProceedings{palm2020,
-author="Palm, Alexander
-and Metzger, Andreas
-and Pohl, Klaus",
-editor="Dustdar, Schahram
-and Yu, Eric
-and Salinesi, Camille
-and Rieu, Dominique
-and Pant, Vik",
-title="Online Reinforcement Learning for Self-adaptive Information Systems",
-booktitle="Advanced Information Systems Engineering",
-year="2020",
-publisher="Springer International Publishing",
-address="Cham",
-pages="169--184",
-abstract="A self-adaptive information system is capable of maintaining its quality requirements in the presence of dynamic environment changes. To develop a self-adaptive information system, information system engineers have to create self-adaptation logic that encodes when and how the system should adapt itself. However, developing self-adaptation logic may be difficult due to design time uncertainty; e.g., anticipating all potential environment changes at design time is in most cases infeasible. Online reinforcement learning (RL) addresses design time uncertainty by learning the effectiveness of adaptation actions through interactions with the system's environment at run time, thereby automating the development of self-adaptation logic. Existing online RL approaches for self-adaptive information systems exhibit two shortcomings that limit the degree of automation: they require manually fine-tuning the exploration rate and may require manually quantizing environment states to foster scalability. We introduce an approach to automate the aforementioned manual activities by employing policy-based RL as a fundamentally different type of RL. We demonstrate the feasibility and applicability of our approach using two self-adaptive information system exemplars.",
-isbn="978-3-030-49435-3"
-}
+@inproceedings{palm2020,
+  author="Palm, Alexander and Metzger, Andreas and Pohl, Klaus",
+  editor="Dustdar, Schahram and Yu, Eric and Salinesi, Camille and Rieu, Dominique and Pant, Vik",
+  title="Online Reinforcement Learning for Self-adaptive Information Systems",
+  booktitle="Advanced Information Systems Engineering",
+  year="2020",
+  publisher="Springer",
+  address="Cham",
+  pages="169--184",
+  isbn="978-3-030-49435-3"}
 
 @comment{---2019 ---}
 
@@ -164,23 +154,18 @@ isbn="978-3-030-49435-3"
   year      = {2019},
   month = {01},
   location = {Honolulu, Hawaii, USA},
-  doi       = {10.1609/aaai.v33i01.33017055},
+  doi       = {10.1609/aaai.v33i01.33017055}}
 
-}
-
-@article{WANG2019,
-title = {Adaptive and large-scale service composition based on deep reinforcement learning},
-journal = {Knowledge-Based Systems},
-volume = {180},
-pages = {75-90},
-year = {2019},
-issn = {0950-7051},
-doi = {https://doi.org/10.1016/j.knosys.2019.05.020},
-url = {https://www.sciencedirect.com/science/article/pii/S0950705119302266},
-author = {Hongbing Wang and Mingzhu Gu and Qi Yu and Yong Tao and Jiajie Li and Huanhuan Fei and Jia Yan and Wei Zhao and Tianjing Hong},
-keywords = {Service composition, QoS, Deep reinforcement learning, Adaptability},
-abstract = {In a service-oriented system, simple services are combined to form value-added services to meet users’ complex requirements. As a result, service composition has become a common practice in service computing. With the rapid development of web service technology, a massive number of web services with the same functionality but different non-functional attributes (e.g., QoS) are emerging. The increasingly complex user requirements and the large number of services lead to a significant challenge to select the optimal services from numerous candidates to achieve an optimal composition. Meanwhile, web services accessible via computer networks are inherently dynamic and the environment of service composition is also complex and unstable. Thus, service composition solutions need to be adaptable to the dynamic environment. To address these key challenges, we propose a new service composition scheme based on Deep Reinforcement Learning (DRL) for adaptive and large-scale service composition. The proposed approach is more suitable for the partially observable service environment, making it work better for real-world settings. A recurrent neural network is adopted to improve reinforcement learning, which can predict the objective function and enhance the ability to express and generalize. In addition, we employ the heuristic behavior selection strategy, in which the state set is divided into the hidden and fully observable state sets, to perform the targeted behavior selection strategy when facing with different types of states. The experimental results justify the effectiveness and efficiency, scalability, and adaptability of our methods by showing obvious advantages in composition results and efficiency for service composition.}
-}
+@article{wang19,
+  title = {Adaptive and large-scale service composition based on deep reinforcement learning},
+  journal = {Knowledge-Based Systems},
+  volume = {180},
+  pages = {75-90},
+  year = {2019},
+  issn = {0950-7051},
+  doi = {https://doi.org/10.1016/j.knosys.2019.05.020},
+  url = {https://www.sciencedirect.com/science/article/pii/S0950705119302266},
+  author = {Hongbing Wang and Mingzhu Gu and Qi Yu and Yong Tao and Jiajie Li and Huanhuan Fei and Jia Yan and Wei Zhao and Tianjing Hong}}
 
 
 @inproceedings{tiwang2019,
